@@ -116,9 +116,6 @@
 ### Adding a page Form
 ![addPage](./screenshots/addPage.png)
 
-### Editing a page Form
-![editPage](./screenshots/editPage.png)
-
 ### Page
 ![Page](./screenshots/page.png)
 
