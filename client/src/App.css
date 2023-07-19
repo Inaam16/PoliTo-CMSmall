@@ -1,0 +1,188 @@
+
+
+/* Global */
+
+body{
+    background-color: white;
+    /* #F1F6F9; */
+}
+
+.vheight-100 {
+    min-height: 100vh;
+  }
+  
+  /* Styles related to NavBar */
+  .navbar-padding {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .below-nav {
+    padding-top: 5rem;
+  }
+  
+  /* Icons */
+  .icon-size {
+    font-size: 1.5rem;
+  }
+  
+  /* Filters and projects */
+  .list-group-item {
+    background-color: transparent;
+  }
+  
+  .list-group-item.active {
+    background-color: #055c9d;
+    border-color: #055c9d;
+  }
+  
+  .list-group-item-action:hover {
+    background-color: #0e86d4;
+    color: white;
+  }
+  
+  small.watch-date {
+    text-align: right;
+  }
+  
+  .projects-title {
+    margin-top: 2rem;
+  }
+  
+  .notbold {
+    font-weight: normal;
+  }
+  
+  /* Class for important tasks */
+  .favorite {
+    color: red;
+  }
+  
+  /* Changing color when mouse is hover certain elements suggests that interaction is possible */
+  
+  .bi-star:hover {
+    fill: #0e86d4;
+    color: #055c9d;
+  }
+  
+  .bi-star-fill:hover {
+    fill: #0e86d4;
+    color: #055c9d;
+  }
+  
+  /*
+   * NOTE: HTML collapses multiple withespaces into one, so "Hello      world!" becomes "Hello world!".
+   * If you want to keep them use white-space: pre-wrap;
+   */
+  .keep-white-space {
+    white-space: pre-wrap;
+  }
+  
+  /* Add task button */
+  .fixed-right-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 1030;
+    margin: 0 1.5rem 1.5rem 0;
+    border-radius: 50%;
+  }
+  
+  /* Adding padding to form */
+  .form-padding {
+    padding: 2rem;
+  }
+  
+  .keep-white-space {
+    white-space: pre-wrap;
+  }
+  
+  /* Specifies the graphical appearence of the toast (used for the login). */
+  .toast {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+  }
+  
+
+.login-container {
+    height: 300px; /* Set a fixed height for the container */
+  }
+  
+  .alert-container {
+    margin-bottom: 10px; /* Optional: Add margin to separate the alert from other content */
+  }
+
+  .my-card {
+    background-color: white; /* Initial background color */
+    transition: background-color 0.3s;
+     /* Add a smooth transition effect */
+  
+    /* Additional styles for the card */
+  }
+  
+  .my-card:hover {
+    background-color: #548ca823; /* Background color on hover */
+    
+}
+  
+  
+    .my-button {
+    background-color: #548CA8; /* Initial background color */
+    border-color: #548CA8;
+    /* // transition: background-color 0.3s; Add a smooth transition effect */
+    color: black;
+    justify-content: center;
+    align-items: center;
+    /* Additional styles for the card */
+  }
+  
+   .my-button:hover {
+    background-color: #548ca8cb; 
+    border-color: #548CA8;
+     
+    color: black;
+}
+    .my-button:active { 
+    background-color: #548ca8cb !important; 
+    border-color: #548CA8;
+     
+    color: black;
+}   
+
+.my-navbar {
+    height: 60px; /* Replace with your desired height */
+    padding: 10px; /* Replace with your desired padding */
+    /* Additional styles for the navbar */
+  }
+
+.my-small-button{
+    height: 40px;
+    width: 80px;
+    text-align: center;
+}
+
+.custom-button {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+
+  
+.fixed-button-container {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+
+
+  .my-div {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-icon {
+    margin-right: 5px; /* Adjust the desired spacing */
+  }
